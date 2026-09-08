@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>MyCFO</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="generator" content="Publii Open-Source CMS for Static Site">
+    <link rel="alternate" type="application/atom+xml" href="https://demo.getpublii.eu/themes/reveral/feed.xml" title="Reveral - RSS">
+    <link rel="alternate" type="application/json" href="https://demo.getpublii.eu/themes/reveral/feed.json" title="Reveral - JSON">
+    <meta property="og:title" content="Reveral">
+    <meta property="og:site_name" content="Reveral">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="https://demo.getpublii.eu/themes/reveral/">
+    <meta property="og:type" content="website">
+    <link rel="next" href="https://demo.getpublii.eu/themes/reveral/blog/page/2/">
+    <link rel="preload" href="https://demo.getpublii.eu/themes/reveral/assets/dynamic/fonts/manrope/manrope.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@100..900&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+    <script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Reveral","url":"https://demo.getpublii.eu/themes/reveral/","sameAs":["#","#","#"]}</script>
+    <style>.anim-hidden { opacity: 0; visibility: hidden; }</style>
+    <noscript><style>img[loading] { opacity: 1; } .anim-hidden { opacity: 1; visibility: visible; }</style></noscript>
+    <style>.li{fill:none;stroke-linecap:round;stroke-linejoin:round;vertical-align:middle}.li *{vector-effect:non-scaling-stroke;}</style>
+</head>
+<body class="home-template">
+    <svg style="display:none" aria-hidden="true">
+        <defs>
+            <symbol id="arrow-next" viewBox="0 0 16 16">
+                <polyline points="6 3 11 8 6 13" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+            </symbol>
+            <symbol id="arrow-top" viewBox="0 0 18 18">
+                <polyline points="9 14 9 4 5 8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                <polyline points="9 4 13 8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+            </symbol>
+        </defs>
+    </svg>
+    <header class="header" id="js-header">
+        <div class="wrapper header__wrapper">
+            <a class="header__logo logo" href="https://demo.getpublii.eu/themes/reveral/">MyCFO</a>
+            <nav class="navbar js-navbar">
+                <button class="navbar__toggle js-toggle" aria-label="Menu" aria-haspopup="true" aria-expanded="false">
+                    <span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span>
+                </button>
+                <!--<ul class="navbar__menu">
+                    <li class="active"><a href="https://demo.getpublii.eu/themes/reveral/" target="_self">Home</a></li>
+                    <li class="has-submenu">
+                        <span class="is-separator" aria-haspopup="true" aria-expanded="false" tabindex="0" role="button">Pages</span>
+                        <ul class="navbar__submenu level-2" aria-hidden="true">
+                            <li class="has-submenu">
+                                <span class="is-separator" aria-haspopup="true" aria-expanded="false" tabindex="0" role="button">Post</span>
+                                <ul class="navbar__submenu level-3 is-left-submenu" aria-hidden="true">
+                                    <li><a href="https://demo.getpublii.eu/themes/reveral/blog/high-altitude-portability-and-cinematic-vision/" target="_self">Default</a></li>
+                                    <li><a href="https://demo.getpublii.eu/themes/reveral/blog/the-raven-x-7/" target="_self">Divided</a></li>
+                                    <li><a href="https://demo.getpublii.eu/themes/reveral/blog/the-raven-x-2/" target="_self">Compact</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <span class="is-separator" aria-haspopup="true" aria-expanded="false" tabindex="0" role="button">Page</span>
+                                <ul class="navbar__submenu level-3" aria-hidden="true">
+                                    <li><a href="https://demo.getpublii.eu/themes/reveral/high-altitude-portability-and-cinematic-vision-3/" target="_self">Default</a></li>
+                                    <li><a href="https://demo.getpublii.eu/themes/reveral/the-raven-x-4/" target="_self">Divided</a></li>
+                                    <li><a href="https://demo.getpublii.eu/themes/reveral/heart-of-the-workshop-3/" target="_self">Compact</a></li>
+                                    <li><a href="https://demo.getpublii.eu/themes/reveral/professional-endurance-platform-3/" target="_self">Empty container</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <span class="is-separator" aria-haspopup="true" aria-expanded="false" tabindex="0" role="button">Tag page</span>
+                                <ul class="navbar__submenu level-3" aria-hidden="true">
+                                    <li><a href="https://demo.getpublii.eu/themes/reveral/tags/hands-free-charging/" target="_self">Default</a></li>
+                                    <li><a href="https://demo.getpublii.eu/themes/reveral/tags/compact/" target="_self">Grid</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="https://demo.getpublii.eu/themes/reveral/tags/" target="_self">Tags page</a></li>
+                            <li class="has-submenu">
+                                <span class="is-separator" aria-haspopup="true" aria-expanded="false" tabindex="0" role="button">Author page</span>
+                                <ul class="navbar__submenu level-3" aria-hidden="true">
+                                    <li><a href="https://demo.getpublii.eu/themes/reveral/authors/olivia-reynolds/" target="_self">Default</a></li>
+                                    <li><a href="https://demo.getpublii.eu/themes/reveral/authors/emma-collins/" target="_self">Grid</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="https://demo.getpublii.eu/themes/reveral/404.html" target="_self">404</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://demo.getpublii.eu/themes/reveral/blog/gallery/">Gallery</a></li>
+                    <li><a href="https://demo.getpublii.eu/themes/reveral/blog/typography/">Typography</a></li>
+                    <li><a href="https://demo.getpublii.eu/themes/reveral/blog/tips-and-tricks/" target="_self">Tips and Tricks</a></li>
+                </ul>-->
+            </nav>
+            <div class="header__actions">
+                <div class="header__search">
+                    <button class="search-toggle btn--clean" aria-label="Search" aria-expanded="false" aria-controls="search-overlay">
+                        <svg focusable="false" height="24" width="24" aria-hidden="true">
+                            <use xlink:href="https://demo.getpublii.eu/themes/reveral/assets/svg/svg-map.svg#search"/>
+                        </svg>
+                    </button>
+                </div>
+                <a href="#footer" class="btn btn--outlined btn--icon">
+                    <span>Get it now</span> 
+                    <svg aria-hidden="true" focusable="false" height="16" width="16">
+                        <use xlink:href="#arrow-next"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <section class="hero is-animated">
+                <div class="hero__container">
+                    <div class="hero__content">
+                        <span class="hero__pre-heading">MyCFO - My Cash Flow Organizer</span>
+                        <header class="hero__header">
+                            <h1>Real Cash Flow for Real Freedom</h1>
+                            <p>Engineered for simplicity, control and mastery of your personal investment portfolio. Our flagship app merges AI future forecasting with cash flow precision.</p>
+                        </header>
+                        <div class="hero__actions">
+                            <a href="" class="btn btn--icon btn--large">
+                                <span>Get it now</span> 
+                                <svg aria-hidden="true" focusable="false" height="16" width="16">
+                                    <use xlink:href="#arrow-next"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <aside class="hero__aside">
+                            <div class="hero__aside-avatars">
+                                <img src="https://demo.getpublii.eu/themes/reveral/media/website/responsive/avatar-1-xs.webp" alt="Alex Carter – Product Designer" width="400" height="400" loading="lazy" class="is-loaded"> 
+                                <img src="https://demo.getpublii.eu/themes/reveral/media/website/responsive/avatar-2-xs.webp" alt="Morgan Blake – Tech Journalist" width="4000" height="4000" loading="lazy" class="is-loaded"> 
+                                <img src="https://demo.getpublii.eu/themes/reveral/media/website/responsive/avatar-3-xs.webp" alt="Riley Adams – Drone Enthusiast" width="2965" height="2965" loading="lazy" class="is-loaded"> 
+                                <img src="https://demo.getpublii.eu/themes/reveral/media/website/responsive/avatar-4-xs.webp" alt="Jordan Pierce – Aerial Photographer" width="3300" height="3300" loading="lazy" class="is-loaded"> 
+                                <img src="https://demo.getpublii.eu/themes/reveral/media/website/responsive/avatar-5-xs.webp" alt="Taylor Quinn – Robotics Engineer" width="5304" height="5304" loading="lazy" class="is-loaded">
+                            </div>
+                            <p>Trusted already by 1.2k+</p>
+                        </aside>
+                    </div>
+                    <figure class="hero__image">
+<picture>
+                            <source srcset="images/hero.png" media="(prefers-color-scheme: dark)">
+                            <img src="images/hero.png" loading="eager" alt="Hero Image" class="is-loaded">
+                        </picture>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="section features">
+                <header class="section__header">
+                    <h2>Master your cash flow. Predict your financial future.</h2>
+                    <p>MyCFO is the only platform that prioritizes Passive Income Cash Flow over other financial metrics. We introduce new financial insights such as "Cash Flow", "Lifestyle Coverage Percentage" and "Passive Income Net Worth". This fundamentally reframes wealth success from "how much do I have?" to "how much does my money make me?"</p>
+                </header>
+                <ul class="features__list">
+                    <li class="icon-box" tabindex="0">
+                        <div class="icon-box__icon">
+                            <svg class="li li-audio-lines" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M2 10v3M6 6v11M10 3v18M14 8v7M18 5v13M22 10v3"/></g></svg>
+                        </div>
+                        <span class="icon-box__tooltip">Financial Future Forecasting</span>
+                    </li>
+                    <li class="icon-box" tabindex="0">
+                        <div class="icon-box__icon">
+                            <svg class="li li-fullscreen" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2"/><rect width="10" height="8" x="7" y="8" rx="1"/></g></svg>
+                        </div>
+                        <span class="icon-box__tooltip">Security & Data Protection</span>
+                    </li>
+                    <li class="icon-box" tabindex="0">
+                        <div class="icon-box__icon">
+                            <svg class="li li-cctv" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M16.75 12h3.632a1 1 0 0 1 .894 1.447l-2.034 4.069a1 1 0 0 1-1.708.134l-2.124-2.97M17.106 9.053a1 1 0 0 1 .447 1.341l-3.106 6.211a1 1 0 0 1-1.342.447L3.61 12.3a2.92 2.92 0 0 1-1.3-3.91L3.69 5.6a2.92 2.92 0 0 1 3.92-1.3zM2 19h3.76a2 2 0 0 0 1.8-1.1L9 15M2 21v-4M7 9h.01"/></g></svg>
+                        </div>
+                        <span class="icon-box__tooltip">Precise Expense Scanning</span>
+                    </li>
+                    <li class="icon-box" tabindex="0">
+                        <div class="icon-box__icon">
+                            <svg class="li li-mic" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M12 19v3M19 10v2a7 7 0 0 1-14 0v-2"/><rect width="6" height="13" x="9" y="2" rx="3"/></g></svg>
+                        </div>
+                        <span class="icon-box__tooltip">Voice Activated Agentic AI</span>
+                    </li>
+                    <li class="icon-box" tabindex="0">
+                        <div class="icon-box__icon">
+                            <svg class="li li-wifi" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M12 20h.01M2 8.82a15 15 0 0 1 20 0M5 12.859a10 10 0 0 1 14 0M8.5 16.429a5 5 0 0 1 7 0"/></g></svg>
+                        </div>
+                        <span class="icon-box__tooltip">Connected Yet Fully Private</span>
+                    </li>
+                    <li class="icon-box" tabindex="0">
+                        <div class="icon-box__icon">
+                            <svg class="li li-tablet-smartphone" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" viewBox="0 0 24 24"><g><rect width="10" height="14" x="3" y="8" rx="2"/><path d="M5 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-2.4M8 18h.01"/></g></svg>
+                        </div>
+                        <span class="icon-box__tooltip">All Device Accessibility</span>
+                    </li>
+                </ul>
+                <div class="features__cards">
+                    <article class="card card--split">
+                        <div class="card__body">
+                            <p class="card__pre-heading">
+                                <svg class="li li-microscope" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M6 18h8M3 22h18M14 22a7 7 0 1 0 0-14h-1M9 14h2M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2ZM12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"/></g></svg> 
+                                <span>Cash flow optimization and wealth engineering precision</span>
+                            </p>
+                            <h3 class="card__title">Financial Management App; like a watchful wise friend forever caring about your financial freedom</h3>
+                            <div class="card__text"><p>Finally a platform that priortises the mastery of your Cash Flow, your Income and Passive Income Net Worth, amongst other key metrics.</p></div>
+                            <div class="card__actions"><a href="#" class="btn btn--icon">Discover more <svg aria-hidden="true" focusable="false" width="16" height="16"><use xlink:href="#arrow-next"></use></svg></a></div>
+                        </div>
+                        <figure class="card__image">
+                            <a href="#" aria-label=""><img src="images/iphone_closeup.png" alt="iPhone closeup" srcset="images/iphone_closeup-xs.png 480w, images/iphone_closeup-sm.png 800w, images/iphone_closeup-md.png 1024w, images/iphone_closeup-lg.png 1366w" sizes="(min-width: 1540px) 1355px, 88vw" width="1993" height="1380" loading="lazy" class="is-loaded"></a></figure>
+                    </article>
+                    <article class="card card--split card--split-reverse">
+                        <div class="card__body">
+                            <p class="card__pre-heading">
+                                <svg class="li li-router" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" viewBox="0 0 24 24"><g><rect width="20" height="8" x="2" y="14" rx="2"/><path d="M6.01 18H6M10.01 18H10M15 10v4M17.84 7.17a4 4 0 0 0-5.66 0M20.66 4.34a8 8 0 0 0-11.31 0"/></g></svg> 
+                                <span>Automate tax returns. Simplify annual filings.</span>
+                            </p>
+                            <h3 class="card__title">End-to-end automated tax return with your Tax Advisor in the loop</h3>
+                            <div class="card__text"><p>Working with your appointed Tax Advisor, MyCFO automates tax return preparation by syncing live financial data to pre-fill IRS forms with precision. From intelligent deduction mapping to one-click electronic filing, we eliminate manual entry errors and ensure compliance. Users gain real-time visibility into their tax liability or refund potential, transforming complex annual tax filings into a seamless, automated experience.</p></div>
+                            <div class="card__actions"><a href="#" class="btn btn--icon">Discover more <svg aria-hidden="true" focusable="false" width="16" height="16"><use xlink:href="#arrow-next"></use></svg></a></div>
+                        </div>
+                        <figure class="card__image">
+                            <a href="#" aria-label=""><img src="images/tax_v1.png" alt="Reveral drone close-up view" srcset="images/tax_v1.png 480w, images/tax_v1.png 800w, images/tax_v1.png 1024w, images/tax_v1.png 1366w" sizes="(min-width: 1540px) 1355px, 88vw" width="2304" height="1792" loading="lazy" class="is-loaded"></a></figure>
+                    </article>
+                    <article class="card card--split">
+                        <div class="card__body">
+                            <p class="card__pre-heading">
+                                <svg class="li li-satellite-dish" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M4 10a7.31 7.31 0 0 0 10 10ZM9 15l3-3M17 13a6 6 0 0 0-6-6M21 13A10 10 0 0 0 11 3"/></g></svg> 
+                                <span>A dovetail of intelligence and automation</span>
+                            </p>
+                            <h3 class="card__title">Agentic AI analytics to guide in future porfolio modelling scenarios</h3>
+                            <div class="card__text"><p>Become at ease with making a simple demand like "Grow My Cash Flow". Putting the power to control of future financial forecasting, cash flow scenario modelling as well as AI predictive financial analytics in your hand.</p></div>
+                            <div class="card__actions"><a href="#" class="btn btn--icon">Discover more <svg aria-hidden="true" focusable="false" width="16" height="16"><use xlink:href="#arrow-next"></use></svg></a></div>
+                        </div>
+                        <figure class="card__image">
+                            <a href="#" aria-label=""><img src="images/two_iphones.png" alt="Reveral drone in flight over landscape" srcset="images/two_iphones.png 480w, images/two_iphones.png 800w, images/two_iphones.png 1024w, images/two_iphones.png 1366w" sizes="(min-width: 1540px) 1355px, 88vw" width="2688" height="1536" loading="lazy" class="is-loaded"></a></figure>
+                    </article>
+                    <article class="card card--split card--split-reverse">
+                        <div class="card__body">
+                            <p class="card__pre-heading">
+                                <svg class="li li-router" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" viewBox="0 0 24 24"><g><rect width="20" height="8" x="2" y="14" rx="2"></rect><path d="M6.01 18H6M10.01 18H10M15 10v4M17.84 7.17a4 4 0 0 0-5.66 0M20.66 4.34a8 8 0 0 0-11.31 0"></path></g></svg> 
+                                <span>Enterprise-grade security and intelligence, working as one</span>
+                            </p>
+                            <h3 class="card__title">Built for Trust, Engineered for Freedom</h3>
+                            <div class="card__text"><p>Move fast without compromising security. MyCFO combines ISO 27001, ISO 9001, and SOC 2 certification with deployment across PCI-compliant environments throughout the USA. Built to support Gramm-Leach-Bliley Act (GLBA) requirements, MyCFO helps safeguard sensitive customer information through rigorous security, privacy, and governance controls.</p></div>
+                            <div class="card__actions"><a href="#" class="btn btn--icon">Discover more <svg aria-hidden="true" focusable="false" width="16" height="16"><use xlink:href="#arrow-next"></use></svg></a></div>
+                        </div>
+                        <figure class="card__image">
+                            <a href="#" aria-label=""><img src="images/certs_v1.png" alt="Reveral drone close-up view" srcset="images/certs_v1.png 480w, images/certs_v1.png 800w, images/certs_v1.png 1024w, images/certs_v1.png 1366w" sizes="(min-width: 1540px) 1355px, 88vw" width="2304" height="1792" loading="lazy" class="is-loaded"></a></figure>
+                    </article>
+                                        <article class="card card--split">
+                        <div class="card__body">
+                            <p class="card__pre-heading">
+                                <svg class="li li-satellite-dish" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M4 10a7.31 7.31 0 0 0 10 10ZM9 15l3-3M17 13a6 6 0 0 0-6-6M21 13A10 10 0 0 0 11 3"/></g></svg> 
+                                <span>Security Infrastructure Built to Become a Competitive Moat</span>
+                            </p>
+                            <h3 class="card__title">Enterprise-Grade Protection Designed to Scale</h3>
+                            <div class="card__text"><p>Secure every transaction with an architecture engineered with FAPI 2.0 and OAuth 2.0 with mutual TLS (mTLS), JWT validation, and token binding to strengthen identity, authentication, and API protection. Integrated real-time threat detection continuously reinforces the security perimeter of the MyCFO App, while audit-ready controls support rigorous compliance, cybersecurity, cyber-risk, and privacy requirements.</p></div>
+                            <div class="card__actions"><a href="#" class="btn btn--icon">Discover more <svg aria-hidden="true" focusable="false" width="16" height="16"><use xlink:href="#arrow-next"></use></svg></a></div>
+                        </div>
+                        <figure class="card__image">
+                            <a href="#" aria-label=""><img src="images/certs_v2.png" alt="Reveral drone in flight over landscape" srcset="images/certs_v2.png 480w, images/certs_v2.png 800w, images/certs_v2.png 1024w, images/certs_v2.png 1366w" sizes="(min-width: 1540px) 1355px, 88vw" width="2688" height="1536" loading="lazy" class="is-loaded"></a></figure>
+                    </article>
+                    <article class="card card--split card--split-reverse">
+                        <div class="card__body">
+                            <p class="card__pre-heading">
+                                <svg class="li li-router" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" viewBox="0 0 24 24"><g><rect width="20" height="8" x="2" y="14" rx="2"></rect><path d="M6.01 18H6M10.01 18H10M15 10v4M17.84 7.17a4 4 0 0 0-5.66 0M20.66 4.34a8 8 0 0 0-11.31 0"></path></g></svg> 
+                                <span>Operationally Scabable Without Compromise.</span>
+                            </p>
+                            <h3 class="card__title">Enterprise-Ready Architecture.</h3>
+                            <div class="card__text"><p>MyCFO combines Kubernetes, Container-native deployment, Helm automation, and GitOps-ready operations with the MyCFO Operator enable faster, repeatable scaling while supporting regional data-sovereignty requirements.</p></div>
+                            <div class="card__actions"><a href="#" class="btn btn--icon">Discover more <svg aria-hidden="true" focusable="false" width="16" height="16"><use xlink:href="#arrow-next"></use></svg></a></div>
+                        </div>
+                        <figure class="card__image">
+                            <a href="#" aria-label=""><img src="images/certs_v4.png" alt="Reveral drone close-up view" srcset="images/certs_v4.png 480w, images/certs_v4.png 800w, images/certs_v4.png 1024w, images/certs_v4.png 1366w" sizes="(min-width: 1540px) 1355px, 88vw" width="2304" height="1792" loading="lazy" class="is-loaded"></a></figure>
+                    </article>
+                    <article class="card card--split">
+                        <div class="card__body">
+                            <p class="card__pre-heading">
+                                <svg class="li li-satellite-dish" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M4 10a7.31 7.31 0 0 0 10 10ZM9 15l3-3M17 13a6 6 0 0 0-6-6M21 13A10 10 0 0 0 11 3"/></g></svg> 
+                                <span>Institutional-Grade Security Engineered as a Competitive Moat</span>
+                            </p>
+                            <h3 class="card__title">User Access Hardware-Backed Trust</h3>
+                            <div class="card__text"><p>MyCFO is positioning security as a core fintech moat, not only a compliance feature. Integrating advanced token hardware authentication with FIDO2/passkeys, PIV smart-card capabilities, NFC, OTP and cryptographic user verification, MyCFO can deliver phishing-resistant, passwordless access across laptops and smartphones. Combined with FAPI 2.0, OAuth 2.0, mTLS, JWT validation and real-time threat detection, the platform is architected for institutional-grade trust from day one. </p></div>
+                            <div class="card__actions"><a href="#" class="btn btn--icon">Discover more <svg aria-hidden="true" focusable="false" width="16" height="16"><use xlink:href="#arrow-next"></use></svg></a></div>
+                        </div>
+                        <figure class="card__image">
+                            <a href="#" aria-label=""><img src="images/token.png" alt="Reveral drone close-up view" srcset="images/token.png 480w, images/token.png 800w, images/token.png 1024w, images/token.png 1366w" sizes="(min-width: 1540px) 1355px, 88vw" width="2304" height="1792" loading="lazy" class="is-loaded"></a></figure>
+                    </article>
+                </div>
+            </section>
+
+            <!--<section class="section media-tabs">
+                <header class="section__header">
+                    <h2>Project Plan - Overview, Phases & Sprints.</h2>
+                    <p>MyCFO App is using the SAFe and Agile project planning methodologies. The best-of-breed proejct managmenet frameworks enable a complex and ambitious project implementation to attain impleementation momentum, stay on track and deliver quality software on-time everytime throughout the three phase and three year implementation plan.</p>
+                </header>
+                <div class="media-tabs__area">
+                    <div class="media-tabs__item media-tabs__item--active" id="media-panel-cinematic-flight-paths" role="tabpanel" aria-labelledby="tab-cinematic-flight-paths" tabindex="0">
+                        <video class="" width="1920" height="1103" data-poster="https://demo.getpublii.eu/themes/reveral/media/website/video-1-poster-2.webp" preload="none">
+                            <source data-src="https://demo.getpublii.eu/themes/reveral/media/website/20250515_1424_Futuristic-Drone-Adventure_simple_compose_01jv9ydan9fbktyr7s8zz33hxe.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="media-tabs__controls">
+                            <button class="play-button" aria-label="Play video Cinematic Flight Paths"><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><polygon points="30,20 70,50 30,80"/></svg></button>
+                            <button class="pause-button" aria-label="Pause video"><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><rect x="30" y="25" width="15" height="50"/><rect x="55" y="25" width="15" height="50"/></svg></button>
+                            <button class="resume-button" aria-label="Resume video"><svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><polygon points="30,20 70,50 30,80"/></svg></button>
+                        </div>
+                    </div>
+                    <div class="media-tabs__item" id="media-panel-real-time-scene-recognition" role="tabpanel" aria-labelledby="tab-real-time-scene-recognition" tabindex="0">
+                        <img src="https://demo.getpublii.eu/themes/reveral/media/website/dronex-8.jpg" alt="Real-Time Scene Recognition" srcset="https://demo.getpublii.eu/themes/reveral/media/website/responsive/dronex-8-xs.jpg 480w, https://demo.getpublii.eu/themes/reveral/media/website/responsive/dronex-8-sm.jpg 800w, https://demo.getpublii.eu/themes/reveral/media/website/responsive/dronex-8-md.jpg 1024w, https://demo.getpublii.eu/themes/reveral/media/website/responsive/dronex-8-lg.jpg 1366w" sizes="(min-width: 1540px) 1355px, 88vw" width="2688" height="1536" loading="lazy" class="is-loaded">
+                    </div>
+                </div>
+                <div class="media-tabs__nav">
+                    <ul class="media-tabs__nav__list" role="tablist" aria-label="Media Tabs">
+                        <li role="presentation"><button type="button" id="tab-cinematic-flight-paths" role="tab" aria-selected="true" aria-controls="media-panel-cinematic-flight-paths" data-tab-target="cinematic-flight-paths" tabindex="0" class="media-tabs__nav__tab btn--clean media-tabs__nav__tab--active">Cinematic Flight Paths</button></li>
+                        <li role="presentation"><button type="button" id="tab-real-time-scene-recognition" role="tab" aria-selected="false" aria-controls="media-panel-real-time-scene-recognition" data-tab-target="real-time-scene-recognition" tabindex="-1" class="media-tabs__nav__tab btn--clean">Real-Time Scene Recognition</button></li>
+                    </ul>
+                </div>
+            </section>-->
+
+
+            <section class="section media-tabs">
+                <header class="section__header">
+                    <h2>Project Plan - Overview, Phases & Sprints.</h2>
+                    <p>MyCFO App is using the SAFe and Agile project planning methodologies. The best-of-breed proejct managmenet frameworks enable a complex and ambitious project implementation to attain impleementation momentum, stay on track and deliver quality software on-time everytime throughout the three phase and three year implementation plan.</p>
+                </header>
+                <div class="media-tabs__area">
+                    <!-- Default visible panel (has --active); contains your local image -->
+                    <div class="media-tabs__item media-tabs__item--active" id="media-panel-kevlar-reinforced" role="tabpanel" aria-labelledby="tab-kevlar-reinforced" tabindex="0">
+                        <img src="images/projectplan_v1.png" alt="MyCFO Project Plan Overview" width="2379" height="753" loading="lazy">
+                    </div>
+                    <div class="media-tabs__item" id="media-panel-camera-6k-pro" role="tabpanel" aria-labelledby="tab-camera-6k-pro" tabindex="0">
+                        <img src="images/sprint1.png" alt="Project Plan Phase 1" width="2078" height="1072" loading="lazy">
+                    </div>
+                </div>
+                <div class="media-tabs__nav">
+                    <ul class="media-tabs__nav__list" role="tablist" aria-label="Media Tabs">
+                        <li role="presentation"><button type="button" id="tab-kevlar-reinforced" role="tab" aria-selected="true" aria-controls="media-panel-kevlar-reinforced" data-tab-target="kevlar-reinforced" tabindex="0" class="media-tabs__nav__tab btn--clean media-tabs__nav__tab--active">MyCFO Project Plan Overview</button></li>
+                        <li role="presentation"><button type="button" id="tab-camera-6k-pro" role="tab" aria-selected="false" aria-controls="media-panel-camera-6k-pro" data-tab-target="camera-6k-pro" tabindex="-1" class="media-tabs__nav__tab btn--clean">Project Plan - Phase 1 - Oct 2026 to Nov 2027</button></li>
+                </div>
+            </section>
+
+
+            <section class="section product-values">
+                <header class="section__header section__header--split">
+                    <h2>The Team.<br>Project Delivery & Software Engineering Precision.</h2>
+                </header>
+                <ul class="product-values__list grid gap-12 lg:gap-22 sm:grid-cols-2 md:grid-cols-3">
+                    <li class="icon-box">
+                        <figure>
+                            <img src="images/kl.jpg" alt="team 1" width="150" height="150">
+                        </figure>
+                        <div>
+                            <h3 class="icon-box__title">Kevin Lally</h3>
+                            <p>CTO</p>
+                            <p>A proven leader with technical breath across AI, blockchain and secuirty inspiring teams to believe in themselves and to engineer world class projects that change how people positively feel and live.</p>
+                        </div>
+                        <div class="card__actions"><a href="https://www.linkedin.com/in/kevlally/" class="btn btn--icon">Linkedin <svg aria-hidden="true" focusable="false" width="16" height="16"><use xlink:href="#arrow-next"></use></svg></a></div>
+                    </li>
+                    <li class="icon-box">
+                        <figure>
+                            <img src="images/mg.jpg" alt="team 1" width="150" height="150">
+                        </figure>
+                        <div>
+                            <h3 class="icon-box__title">Moacyr Galo</h3>
+                            <p>AI And Systems Architect</p>
+                            <p>Chief AI Officer (CAIO) with pioneering product development and AI Strategy that can only be described as business transformative. Few equal his talent and skill in AI and blockchain innovation engineering.</p>
+                        </div>
+                        <div class="card__actions"><a href="https://www.linkedin.com/in/moacyr-galo-0002a4/" class="btn btn--icon">Linkedin <svg aria-hidden="true" focusable="false" width="16" height="16"><use xlink:href="#arrow-next"></use></svg></a></div>
+                    </li>
+                    <li class="icon-box">
+                        <figure>
+                            <img src="images/nt.jpg" alt="team 1" width="150" height="150">
+                        </figure>
+                        <div>
+                            <h3 class="icon-box__title">Nathan Timmis</h3>
+                            <p>AI and Machine Learning</p>
+                            <p>Agentic AI (LLM) infrastructure engineer with real-time machine learning systems hybrid engineering at the intersection of LLMs and Web3 systems. Building performant, privacy-aligned AI infrastructure.</p>
+                        </div>
+                        <div class="card__actions"><a href="https://www.linkedin.com/in/nathantimmis/" class="btn btn--icon">Linkedin <svg aria-hidden="true" focusable="false" width="16" height="16"><use xlink:href="#arrow-next"></use></svg></a></div>
+                    </li>
+                    <li class="icon-box">
+                        <figure>
+                            <img src="images/jm.png" alt="team 1" width="150" height="150">
+                        </figure>
+                        <div>
+                            <h3 class="icon-box__title">Jonathan McGuinness</h3>
+                            <p>Senior Project Mangager</p>
+                            <p>Senior project manager with proven on-time delivery. One-quarter slip costs more than most transformations and Jonathan keeps programmes on schedule. Project risk mitigation and governance.</p>
+                        </div>
+                        <div class="card__actions"><a href="https://www.linkedin.com/in/jonathanmcguinness/" class="btn btn--icon">Linkedin <svg aria-hidden="true" focusable="false" width="16" height="16"><use xlink:href="#arrow-next"></use></svg></a></div>
+                    </li>
+                    <li class="icon-box">
+                        <figure>
+                            <img src="images/tr.png" alt="team 1" width="150" height="150">
+                        </figure>
+                        <div>
+                            <h3 class="icon-box__title">Taufiq Rinawi</h3>
+                            <p>Senior Business Analysis</p>
+                            <p>Senior project manager and business analyst in retail banking & wealth management. Agile and SAFe project management frameworks expert with proven on-time everytime project delivery. </p>
+                        </div>
+                        <div class="card__actions"><a href="https://www.linkedin.com/in/taufiqrinawi/" class="btn btn--icon">Linkedin <svg aria-hidden="true" focusable="false" width="16" height="16"><use xlink:href="#arrow-next"></use></svg></a></div>
+                    </li>
+                    <li class="icon-box">
+                        <figure>
+                            <img src="images/jp.jpg" alt="team 1" width="150" height="150">
+                        </figure>
+                        <div>
+                            <h3 class="icon-box__title">John Paul Mulligan</h3>
+                            <p>USA Banking Data Expert</p>
+                            <p>USA banking expert having worked as Executive Director of Commercial Mortgage-Backed Security at Wells Fargo Securities LLC. JP is our customer banking data and banking interface expert.</p>
+                        </div>
+                        <div class="card__actions"><a href="https://www.linkedin.com/in/john-paul-jp-mulligan-218a191a/" class="btn btn--icon">Linkedin <svg aria-hidden="true" focusable="false" width="16" height="16"><use xlink:href="#arrow-next"></use></svg></a></div>
+                    </li>
+                </ul>
+                <footer class="section__footer">
+                    <div class="product-values__more">
+                        <p>There's more under the hood. Full breakdown available at <a href="https://mycfo.com/">mycfo.com</a>.</p>
+                    </div>
+                </footer>
+            </section>
+
+            <section class="section product-values">
+                <header class="section__header section__header--split">
+                    <h2>Built for Financial Freedom.<br>Trust where it matters.</h2>
+                </header>
+                <ul class="product-values__list grid gap-12 lg:gap-22 sm:grid-cols-2 md:grid-cols-3">
+                    <li class="icon-box">
+                        <div class="icon-box__icon" aria-hidden="true">
+                            <svg class="li li-flask-conical" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2M6.453 15h11.094M8.5 2h7"/></g></svg>
+                        </div>
+                        <div>
+                            <h3 class="icon-box__title">Cash Flow (Combined)</h3>
+                            <p>Cash flow represents the movement of money in and out of your finances. To determine net cash flow, add all income sources and deduct total expenses.</p>
+                        </div>
+                    </li>
+                    <li class="icon-box">
+                        <div class="icon-box__icon" aria-hidden="true">
+                            <svg class="li li-fingerprint-pattern" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M12 10a2 2 0 0 0-2 2c0 1.02-.1 2.51-.26 4M14 13.12c0 2.38 0 6.38-1 8.88M17.29 21.02c.12-.6.43-2.3.5-3.02M2 12a10 10 0 0 1 18-6M2 16h.01M21.8 16c.2-2 .131-5.354 0-6"/><path d="M5 19.5C5.5 18 6 15 6 12a6 6 0 0 1 .34-2M8.65 22c.21-.66.45-1.32.57-2M9 6.8a6 6 0 0 1 9 5.2v2"/></g></svg>
+                        </div>
+                        <div>
+                            <h3 class="icon-box__title">Lifestyle Coverage Percentage (Passive)</h3>
+                            <p>Passive Income ÷ Total Expenses: This measures how much of your expenses are covered solely by passive income ONLY. It's a key indicator of progress toward financial independence, where passive income fully funds your lifestyle.</p>
+                        </div>
+                    </li>
+                    <li class="icon-box">
+                        <div class="icon-box__icon" aria-hidden="true">
+                            <svg class="li li-pocket-knife" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M3 2v1c0 1 2 1 2 2S3 6 3 7s2 1 2 2-2 1-2 2 2 1 2 2M18 6h.01M6 18h.01M20.83 8.83a4 4 0 0 0-5.66-5.66l-12 12a4 4 0 1 0 5.66 5.66Z"/><path d="M18 11.66V22a4 4 0 0 0 4-4V6"/></g></svg>
+                        </div>
+                        <div>
+                            <h3 class="icon-box__title">Passive Income Net Worth</h3>
+                            <p>This formula calculates the investment capital needed to generate a target passive income: divide desired annual income by your expected rate of return (cap rate). For example, $40,000 ÷ 4% = $1M required.</p>
+                        </div>
+                    </li>
+                    <li class="icon-box">
+                        <div class="icon-box__icon" aria-hidden="true">
+                            <svg class="li li-sliders-horizontal" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M10 5H3M12 19H3M14 3v4M16 17v4M21 12h-9M21 19h-5M21 5h-7M8 10v4M8 12H3"/></g></svg>
+                        </div>
+                        <div>
+                            <h3 class="icon-box__title">Grow My Cash Flow (1-Click Quick Access)</h3>
+                            <p>MyCFO will enable users to use Agentic AI to seek guidance on the best ways to grow their cash flow. They can then take this information to discuss in more detail with their fiancnial advisor.</p>
+                        </div>
+                    </li>
+                    <li class="icon-box">
+                        <div class="icon-box__icon" aria-hidden="true">
+                            <svg class="li li-component" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M15.536 11.293a1 1 0 0 0 0 1.414l2.376 2.377a1 1 0 0 0 1.414 0l2.377-2.377a1 1 0 0 0 0-1.414l-2.377-2.377a1 1 0 0 0-1.414 0zM2.297 11.293a1 1 0 0 0 0 1.414l2.377 2.377a1 1 0 0 0 1.414 0l2.377-2.377a1 1 0 0 0 0-1.414L6.088 8.916a1 1 0 0 0-1.414 0zM8.916 17.912a1 1 0 0 0 0 1.415l2.377 2.376a1 1 0 0 0 1.414 0l2.377-2.376a1 1 0 0 0 0-1.415l-2.377-2.376a1 1 0 0 0-1.414 0zM8.916 4.674a1 1 0 0 0 0 1.414l2.377 2.376a1 1 0 0 0 1.414 0l2.377-2.376a1 1 0 0 0 0-1.414l-2.377-2.377a1 1 0 0 0-1.414 0z"/></g></svg>
+                        </div>
+                        <div>
+                            <h3 class="icon-box__title">Capital calls and distributions</h3>
+                            <p>Track capital calls and distributions by matching what’s expected with what actually lands in your account. Get alerts on capital calls and stay ahead of your upcoming commitments.</p>
+                        </div>
+                    </li>
+                    <li class="icon-box">
+                        <div class="icon-box__icon" aria-hidden="true">
+                            <svg class="li li-grid-2x2-plus" width="24px" height="24px" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M12 3v17a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1H3M16 19h6M19 22v-6"/></g></svg>
+                        </div>
+                        <div>
+                            <h3 class="icon-box__title">Advanced Portfolio Analysis (What If Then Analysis / Sensitivity Analysis).</h3>
+                            <p>Model asset allocations–including illiquid assets–to optimally achieve your client’s goals, objectives and cash flow requirements. Choose from various capital market assumptions to test hypothetical performance across different scenarios.</p>
+                        </div>
+                    </li>
+                </ul>
+                <footer class="section__footer">
+                    <div class="product-values__more">
+                        <p>There's more under the hood. Full breakdown available at <a href="https://mycfo.com/">mycfo.com</a>.</p>
+                    </div>
+                </footer>
+            </section>
+
+            <!--<section class="section insights">
+                <header class="section__header section__header--split">
+                    <h2>Drone insights</h2>
+                    <p>Stay informed with field reports, hands-on experiences, and insights into drone systems and autonomous operations.</p>
+                </header>
+                <div class="insights__list grid gap-x-6 gap-y-12 sm:grid-cols-2 md:grid-cols-3">
+                    <article class="card">
+                        <figure class="card__image">
+                            <img src="https://demo.getpublii.eu/themes/reveral/media/posts/59/video-1-poster.png" srcset="https://demo.getpublii.eu/themes/reveral/media/posts/59/responsive/video-1-poster-xs.png 480w, https://demo.getpublii.eu/themes/reveral/media/posts/59/responsive/video-1-poster-sm.png 800w, https://demo.getpublii.eu/themes/reveral/media/posts/59/responsive/video-1-poster-md.png 1024w, https://demo.getpublii.eu/themes/reveral/media/posts/59/responsive/video-1-poster-lg.png 1366w" sizes="(min-width: 1540px) 1355px, 88vw" loading="lazy" height="2883" width="5018" alt="Alt text " class="is-loaded">
+                        </figure>
+                        <div class="card__body">
+                            <h3 class="card__title"><a href="https://demo.getpublii.eu/themes/reveral/blog/professional-endurance-platform/">Professional Endurance Platform: Mapping and Inspection in Remote Terrain</a></h3>
+                            <div class="card__meta"><time datetime="2024-09-01T08:32" class="card__date">September 1, 2024</time></div>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <figure class="card__image">
+                            <img src="https://demo.getpublii.eu/themes/reveral/media/posts/58/drone-83.jpg" srcset="https://demo.getpublii.eu/themes/reveral/media/posts/58/responsive/drone-83-xs.jpg 480w, https://demo.getpublii.eu/themes/reveral/media/posts/58/responsive/drone-83-sm.jpg 800w, https://demo.getpublii.eu/themes/reveral/media/posts/58/responsive/drone-83-md.jpg 1024w, https://demo.getpublii.eu/themes/reveral/media/posts/58/responsive/drone-83-lg.jpg 1366w" sizes="(min-width: 1540px) 1355px, 88vw" loading="lazy" height="1440" width="2560" alt="Alt text " class="is-loaded">
+                        </figure>
+                        <div class="card__body">
+                            <h3 class="card__title"><a href="https://demo.getpublii.eu/themes/reveral/blog/heart-of-the-workshop/">The SpectraFold Elite: Uncompromising Portability and Imaging Power</a></h3>
+                            <div class="card__meta"><time datetime="2024-08-31T17:26" class="card__date">August 31, 2024</time></div>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <figure class="card__image">
+                            <img src="https://demo.getpublii.eu/themes/reveral/media/posts/54/dron-111.jpg" srcset="https://demo.getpublii.eu/themes/reveral/media/posts/54/responsive/dron-111-xs.jpg 480w, https://demo.getpublii.eu/themes/reveral/media/posts/54/responsive/dron-111-sm.jpg 800w, https://demo.getpublii.eu/themes/reveral/media/posts/54/responsive/dron-111-md.jpg 1024w, https://demo.getpublii.eu/themes/reveral/media/posts/54/responsive/dron-111-lg.jpg 1366w" sizes="(min-width: 1540px) 1355px, 88vw" loading="lazy" height="1536" width="2688" alt="Alt  text" class="is-loaded">
+                        </figure>
+                        <div class="card__body">
+                            <h3 class="card__title"><a href="https://demo.getpublii.eu/themes/reveral/blog/high-altitude-portability-and-cinematic-vision/">The Horizon Catcher: Cinematic Aerial Perfection in Any Landscape</a></h3>
+                            <div class="card__meta"><time datetime="2024-08-31T17:26" class="card__date">August 31, 2024</time></div>
+                        </div>
+                    </article>
+                </div>
+            </section>-->
+        </div>
+    </main>
+
+    <div class="wrapper">
+        <section class="section section--dark cta-section" role="complementary" aria-labelledby="cta-section-heading">
+            <div class="cta-section__inner">
+                <header class="cta-section__header" id="cta-section-heading">
+                    <h2>Join our waiting list</h2>
+                    <p>Get early access to the MyCFO App and connect to our team, and help shape the future of real financial freedom.</p>
+                </header>
+                <div class="cta-section__aside">
+                    <a href="#" class="btn btn--icon btn--large">Apply for Beta Access <svg role="presentation" focusable="false" height="16" width="16"><use xlink:href="#arrow-next"></use></svg></a>
+                    <p class="cta-section__notice">Limited spots. Selection based on profile.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer" id="footer">
+        <div class="wrapper">
+            <div class="footer__top grid gap-8 sm:grid-cols-3 md:grid-cols-5 md:justify-items-end">
+                <div class="footer__item sm:row-span-2 md:row-span-1 md:justify-self-start">
+                    <a class="logo footer__logo" href="#">MyCFO</a>
+                </div>
+                <!--<div class="footer__item">
+                    <h3 class="footer__heading">Platform</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="al" target="_self">Autonomous flight</a></li>
+                        <li><a href="#" class="al" target="_self">Sensor fusion</a></li>
+                        <li><a href="#" class="al" target="_self">Scene recognition</a></li>
+                        <li><a href="#" class="al" target="_self">Roadmap</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h3 class="footer__heading">Product</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="al" target="_self">Features</a></li>
+                        <li><a href="#" class="al" target="_self">Integrations</a></li>
+                        <li><a href="#" class="al" target="_self">Pricing</a></li>
+                        <li><a href="#" class="al" target="_self">Download</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h3 class="footer__heading">Resources</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="al" target="_blank">Documentation</a></li>
+                        <li><a href="#" class="al" target="_self">Blog</a></li>
+                        <li><a href="#" class="al" target="_self">Tips &amp; Tricks</a></li>
+                        <li><a href="#" class="al" target="_blank">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item">
+                    <h3 class="footer__heading">Company</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="al" target="_self">About us</a></li>
+                        <li><a href="#" class="al" target="_self">Privacy policy</a></li>
+                        <li><a href="#" class="al" target="_self">Terms of use</a></li>
+                        <li><a href="#" class="al" target="_self">Contact</a></li>
+                    </ul>
+                </div>-->
+            </div>
+            <div class="footer__bottom grid gap-4 sm:grid-cols-2">
+                <div class="footer__social">
+                    <a href="#" aria-label="Facebook" title="Facebook" class="facebook"><svg width="22" height="22" fill="currentColor"><use xlink:href="https://demo.getpublii.eu/themes/reveral/assets/svg/svg-map.svg#facebook"/></svg> </a>
+                    <a href="#" aria-label="X" title="X" class="twitter"><svg width="22" height="22" fill="currentColor"><use xlink:href="https://demo.getpublii.eu/themes/reveral/assets/svg/svg-map.svg#twitter"/></svg> </a>
+                    <a href="#" aria-label="Instagram" title="Instagram" class="instagram"><svg width="22" height="22" fill="currentColor"><use xlink:href="https://demo.getpublii.eu/themes/reveral/assets/svg/svg-map.svg#instagram"/></svg></a>
+                </div>
+                <div class="footer__copyright">
+                    <p>© 2026 Powered by MyCFO</p>
+                </div>
+            </div>
+            <button id="backToTop" class="bttop" aria-label="Back to top">
+                <svg class="bttop__progress" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><circle class="bttop__progress-bg" cx="24" cy="24" r="22"/><circle class="bttop__progress-indicator" cx="24" cy="24" r="22"/></svg> 
+                <svg width="18" height="18" aria-hidden="true" focusable="false"><use xlink:href="#arrow-top"/></svg>
+            </button>
+        </div>
+    </footer>
+
+    <div id="search-overlay" class="search-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Search">
+        <div class="search-overlay__wrapper">
+            <form action="https://demo.getpublii.eu/themes/reveral/search.html" class="search__form">
+                <input class="search__input" type="search" name="q" placeholder="search..." aria-label="search..."> 
+                <button type="submit" class="search__button"><span>Submit</span></button>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+    <script>
+        window.publiiThemeMenuConfig = {
+            mobileMenuMode: 'sidebar',
+            animationSpeed: 300,
+            submenuWidth: 'auto',
+            doubleClickTime: 500,
+            mobileMenuExpandableSubmenus: true,
+            relatedContainerForOverlayMenuSelector: '.header'
+        }
+
+        window.mediaTabsConfig = {
+            useNativeControls: false,
+            pauseOtherInstancesOnPlay: true
+        };
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const heroSection = document.querySelector('.hero');
+            if (!heroSection) { return; }
+            const observerOptions = { root: null, rootMargin: '0px', threshold: 0.1 };
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-animated');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+            observer.observe(heroSection);
+        });
+    </script>
+    <script>
+        var images = document.querySelectorAll('img[loading]');
+        for (var i = 0; i < images.length; i++) {
+            if (images[i].complete) {
+                images[i].classList.add('is-loaded');
+            } else {
+                images[i].addEventListener('load', function () {
+                    this.classList.add('is-loaded');
+                }, false);
+            }
+        }
+    </script>
+</body>
+</html>
