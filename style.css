@@ -8,6 +8,11 @@
   object-position: center;
   background: #ffffff;
 }
+#media-panel-sensor-precision img {
+  object-fit: contain;
+  object-position: center;
+  background: #ffffff;
+}
 
 @font-face {
   font-family: Manrope;
